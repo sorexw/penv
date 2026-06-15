@@ -17,7 +17,7 @@
       pname = "penv";
       version = "0.1.0";
 
-      src = ./src;
+      src = ./.;
 
       cargoLock = {
         lockFile = ./Cargo.lock;
